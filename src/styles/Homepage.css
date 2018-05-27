@@ -1,0 +1,22 @@
+body{
+	background-color: white;
+	overflow: hidden;
+}
+
+.left_section{
+	padding-top: 20px;
+	margin-right: 2%;
+	width: 20%;
+	position: relative;
+	align-items: center;
+	text-align: center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
