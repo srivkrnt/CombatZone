@@ -1,0 +1,135 @@
+.App {
+  height: 100vh;
+  display: flex;
+  background-color: #343233; 
+
+}
+
+.left_section {
+  float:left;
+  width: 45%;
+  margin-left: 4%;
+  background-color: #FFFFFF;
+  padding:4% 2% 2% 2%;
+  margin-top:3%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;  
+}
+
+.right_section{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 80%;
+  background-color: #343233;
+  padding: 0px  40px;
+  overflow: auto;
+}
+.logo_img{
+  margin-left:38%;
+  margin-right: 40%;
+  margin-top:0%;
+}
+
+.Logo_Title{
+	color:#78AF9F;
+	padding: 0% 0% 2% 26.5%;
+	font-size: 2em;
+}
+.switch {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+  margin-right:2%;
+  margin-top:1%;
+}
+.switch_item {
+  background-color: #78AF9F;
+  color: #FFFFFF;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.switch_item:hover{
+  background-color: #D36E2D;
+  color: white;
+}
+.switch_item:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.switch_item:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+input[type=password], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+}
+
+
+.submit {
+    width:100%;
+    margin:1px 1px 1px 1px;
+    background-color: #78AF9F;
+    color: white;
+    font-size: 1.0em;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #343233;
+}
+
+.Form_Fields {
+    border-radius: 5px;
+    color:#178DFD;
+    color: #33485F;
+}
+
+.Form_Title{
+  color:#4D4D4D;
+  padding: 2% 0% 5% 30%; ;
+  font-size: 3.5vh;
+  margin-top: 3%;
+
+}
+
+.About_Sec{
+  margin:5% 5% 5% 5% ;
+}
+.About_Text{
+  margin-top:5%;
+  padding: 5% 5% 5% 5%;
+  color: white;
+
+}
+
+.Editor_Img{
+	padding: 5% 5% 5% 5%;
+	width: 100%; 		
+}
