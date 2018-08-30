@@ -1,8 +1,8 @@
 .App {
   height: 100vh;
   display: flex;
-  background-color: #343233; 
-
+  background-color: #343233;
+  overflow:hidden;
 }
 
 .left_section {
